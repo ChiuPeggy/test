@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .line {
+            width: 200px;
+            height: 20px;
+            background-color: rgba(188,170,164 ,1);
+            position: relative;
+        }
+
+        .dot {
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: rgba(109,76,65 ,1);
+            border-radius: 50%;
+        }
+    </style>
+    <div class="line">
+        <div class="dot"></div>
+    </div>
+    <input id="n" type="number" min="0" max="100" value="0">
+    <button id="go">Go</button>
+    <script src="practice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .line {
+            width: 200px;
+            height: 20px;
+            background: red;
+            position: relative;
+        }
+        
+        .dot {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            background: black;
+            border-radius: 50%;
+        }
+        
+        pre {
+            height: 100px;
+            width: 200px;
+            background: lightblue;
+        }
+    </style>
+    <div class="line">
+        <div class="dot"></div>
+    </div>
+    <input id="n" type="number" min="0" max="100" value="0">
+    <button id="go">Go</button>
+    <button id="gettext">Get Text</button>
+    <pre>
+    </pre>
+    <script src="./async.js"></script>
+</body>
+
+</html>
